@@ -1,0 +1,380 @@
+body {
+  height: 100%;
+}
+
+header {
+  width: 100%;
+  height: 90px;
+  padding: 25px 0;
+  border-top: 4px solid #e66464;
+}
+
+header #container {
+  width: 100%;
+  height: 36px;
+  margin: 0 auto;
+}
+
+header #container h1 {
+  height: 39px;
+  line-height: 1;
+  margin: 0 auto;
+}
+
+header #container h1 .photo {
+  padding-left: 23%;
+}
+
+header #container nav {
+  margin-top: 19px;
+}
+
+header #container nav ul {
+  list-style: none;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+header #container nav ul li {
+  border-left: 1px solid #e8e8e8;
+  padding: 0 25px;
+  font-size: 20px;
+  font-weight: bold;
+  padding-top: 5px;
+  padding-bottom: 10px;
+  -ms-flex-preferred-size: 50%;
+      flex-basis: 50%;
+}
+
+header #container nav ul li a {
+  color: #8f4040;
+}
+
+#mainimage {
+  width: 100%;
+  height: 392px;
+  background: url(images/mainimage.jpg) no-repeat center;
+}
+
+#mainimage #mainimage_text {
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  padding: 60px 0;
+}
+
+#mainimage p {
+  font-size: 30px;
+  line-height: 40px;
+  font-weight: 900;
+  letter-spacing: 7px;
+  padding-top: 10px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+#mainimage dl {
+  width: 373px;
+}
+
+#mainimage dl dt {
+  padding-left: 5%;
+}
+
+#mainimage dl dd {
+  margin: 20px 0;
+  font-size: 14px;
+  line-height: 21px;
+  text-align: center;
+}
+
+#mainimage dl dd img {
+  margin: 0 auto;
+  padding-left: 5%;
+}
+
+#introduction {
+  width: 100%;
+  height: auto;
+}
+
+#introduction #introduction-wrapper {
+  width: 100%;
+  height: auto;
+  padding: 0;
+  margin: 0 auto;
+  position: relative;
+  background-color: #ed7c7c;
+}
+
+#introduction #introduction-wrapper #introduction-title {
+  width: 100%;
+  height: 90px;
+  margin-bottom: 30px;
+}
+
+#introduction #introduction-wrapper #introduction-title h3 {
+  color: #fff;
+  font-size: 40px;
+  font-weight: 900;
+  border-bottom: 4px solid #fff;
+  padding-bottom: 10px;
+  margin: 0 auto;
+  padding-left: 30%;
+}
+
+#introduction #introduction-wrapper #introduction-title span {
+  color: #fff;
+  font-size: 14px;
+  padding: 0 10px;
+}
+
+#introduction #introduction-wrapper #teacher-list {
+  width: 100%;
+  height: 252px;
+  background-color: #fff;
+  padding: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+#introduction #introduction-wrapper #teacher-list h4 {
+  font-size: 30px;
+  font-weight: 900;
+  margin: 0 auto;
+  padding-bottom: 10px;
+}
+
+#introduction #introduction-wrapper #teacher-list ul {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+}
+
+#introduction #introduction-wrapper #teacher-list ul dl {
+  padding-left: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+#introduction #introduction-wrapper #teacher-list ul dl dt img {
+  text-align: center;
+  padding-left: 35%;
+}
+
+#introduction #introduction-wrapper #teacher-list ul dd {
+  margin: 0;
+  -ms-flex-preferred-size: 100%;
+      flex-basis: 100%;
+}
+
+#introduction #introduction-wrapper #teacher-list ul .teacher_name {
+  font-size: 14px;
+  font-weight: 900;
+}
+
+#introduction #introduction-wrapper #teacher-list ul .teacher_comment {
+  font-size: 12px;
+  line-height: 18px;
+}
+
+#introduction #introduction-wrapper #course_list {
+  width: 100%;
+  height: auto;
+  background-color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  position: absolute;
+  top: 750px;
+}
+
+#introduction #introduction-wrapper #course_list h4 {
+  font-size: 30px;
+  font-weight: 900;
+  padding: 15px 15px 10px 15px;
+  padding-left: 33%;
+}
+
+#introduction #introduction-wrapper #course_list ul {
+  list-style: none;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+#introduction #introduction-wrapper #course_list ul li {
+  -ms-flex-preferred-size: 100%;
+      flex-basis: 100%;
+  padding: 15px;
+  padding-left: 25%;
+  margin: 0 auto;
+}
+
+#introduction #introduction-wrapper #course_list ul li li:nth-child(5) {
+  margin-bottom: 0;
+}
+
+#introduction #introduction-wrapper #course_list ul li a {
+  background: url(images/icon_photoshop.png) no-repeat left center;
+  display: block;
+  height: 37px;
+  width: auto;
+  line-height: 37px;
+  padding-left: 50px;
+  color: black;
+}
+
+#introduction #introduction-wrapper #course_list ul li .il {
+  background: url(images/icon_ai.png) no-repeat left center;
+}
+
+#introduction #introduction-wrapper #course_list ul li .pr {
+  background: url(images/icon_pr.png) no-repeat left center;
+}
+
+#introduction #introduction-wrapper #course_list ul li .fi {
+  background: url(images/icon_fw.png) no-repeat left center;
+}
+
+#introduction #introduction-wrapper #course_list ul li .dr {
+  background: url(images/icon_dw.png) no-repeat left center;
+}
+
+#price {
+  width: 100%;
+  height: 453px;
+  background-color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+#price-wrapper {
+  width: 100%;
+  height: auto;
+  margin-top: 750px;
+}
+
+#price-wrapper #price-title {
+  width: 100%;
+  height: 43px;
+  margin-bottom: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+#price-wrapper #price-title h3 {
+  font-size: 24px;
+  font-weight: 900;
+  color: #474747;
+  border-bottom: 4px solid #e56d7c;
+  padding-bottom: 15px;
+  margin-left: 35%;
+}
+
+#price-wrapper #price-title span {
+  padding: 5px 20px;
+  border: 1px dotted #e56d7c;
+}
+
+#price ul {
+  list-style: none;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding-top: 70px;
+}
+
+#price ul li {
+  width: 100%;
+  height: 290px;
+  background-color: #fff;
+  padding: 15px;
+  text-align: center;
+  position: relative;
+}
+
+#price ul li li:nth-child(1) {
+  margin: 0 auto;
+}
+
+#price ul li a {
+  color: #fff;
+  font-weight: 900;
+  background-color: #e56d7c;
+  display: inline-block;
+  border-radius: 5px;
+  padding: 0 25px;
+  line-height: 36px;
+  position: absolute;
+  left: 35%;
+  bottom: 15px;
+}
+
+#price ul li .plan {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+#price ul li .price {
+  color: #e56d7c;
+  font-size: 28px;
+  font-weight: 900;
+  margin: 15px 0 30px 0;
+}
+
+#price ul li .price dl {
+  border-bottom: 1px dotted #eae9e7;
+}
+
+#price ul li .price dl dd {
+  border-top: 1px dotted #eae9e7;
+  line-height: 45px;
+}
+
+#price ul li .price span {
+  font-size: 16px;
+  margin-left: 10px;
+}
+
+footer {
+  width: 100%;
+  height: 73px;
+  background-color: #474747;
+  color: #fff;
+  text-align: center;
+  line-height: 73px;
+  bottom: 0;
+  position: absolute;
+  top: 355%;
+}
+/*# sourceMappingURL=600px.css.map */
